@@ -205,13 +205,29 @@ Visi šie atidarymo rėžimai leidžia manipuliuoti failuose esančiu turiniu. P
 
 Atidarykite tekstiniame faile esančią eilutę ir atspausdinkite ją, pakeičiant visus didžiąsias raides mažosiomis ir atvirkščiai. Failo pavadinimas: "pakeitimai.txt".💡 Galite naudoti `swapcase()` funkciją.
 
+```Python
+ with open('tekstas.txt', 'r') as file:
+      eilute = eilute.readline()
+      for eilute in file
+          print(eilute)
+```          
+
 ### Antra užduotis
 
 Sukurkite naują failą "skaiciai.txt" ir įrašykite į jį skaičius nuo 1 iki 100, kiekvieną naujoje eilutėje.
 
+
+```Python
+with open('skaiciai.txt', 'w') as file:
+    for skaicius in range(1, 100):
+       write.file(f'{skaicius}, \n')
+```
+
 ### Trečia užduotis
 
 Atidarykite "tekstas.txt" failą, pakeiskite failo žymeklį į vidurį failo ir atspausdinkite likusį failo turinį.
+
+
 
 ### Ketvirta užduotis
 
